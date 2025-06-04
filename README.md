@@ -157,7 +157,7 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 
 This lab provided hands-on experience in setting up a virtual SOC environment, performing adversary simulation with a C2 framework, and crafting detection and response rules. It demonstrates proficiency in Windows and Linux system configuration, endpoint monitoring deployment, red team operations, and SOC alerting workflows using modern cybersecurity tools.
 
-## References
+## Credit & References
 
 - Microsoft Sysmon: https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon  
 - MITRE ATT&CK - Credential Dumping via LSASS: https://attack.mitre.org/techniques/T1003/001/  
