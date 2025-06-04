@@ -1,4 +1,4 @@
-<h1>Adversary Simulation & Detection Lab: Sliver C2 & LimaCharlie </h1>
+<h1>Adversary Simulation & SOC Detection Lab </h1>
 
 <h2>Description </h2>
 n/a
