@@ -36,7 +36,6 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
   - Restarted the Windows VM to apply changes.
 
 **Image Placeholder:**  
-*Screenshot of VMware interface showing both VMs running.*  
 *Screenshot of Windows Security settings showing Defender disabled.*  
 *Screenshot of registry editor with modified keys.*
 
