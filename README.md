@@ -21,9 +21,6 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 
 <h2>Lab Walkthrough </h2>
 
-*Note: this is being edited in active time. There are placeholders that will be filled.*
-
----
 ### 1. Setting up VMs and Initial Configuration:
 
 - Installed VMware Workstation Pro 17.
@@ -35,9 +32,12 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
   - Running PowerShell commands as Administrator to disable Windows Defender tasks.
   - Restarted the Windows VM to apply changes.
 
-**Image Placeholder:**  
-*Screenshot of Windows Security settings showing Defender disabled.*  
-*Screenshot of registry editor with modified keys.*
+##### Windows Security settings showing Defender disabled on PowerShell:
+![Windows Security settings showing Defender disabled on PowerShell 1](https://i.imgur.com/wJ9IN8c.png)
+![Windows Security settings showing Defender disabled on PowerShell 2](https://i.imgur.com/iZtQbON.png)
+
+##### Registry editor with modified key of WinDefend:
+![Registry editor with modified key of WinDefend](https://i.imgur.com/giey59e.png)
 
 ---
 
@@ -47,8 +47,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - [Brief explanation on why Sysmon is used: for advanced system monitoring and logging of suspicious activities.]
 
 **Image Placeholder:**  
-*Screenshot of PowerShell command executing Sysmon installation.*  
-*Screenshot of Sysmon running confirmation.*
+##### N/A:
+![N/A](N/A)
 
 ---
 
@@ -60,8 +60,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Created Artifact Collection Rules in LimaCharlie to capture relevant data.
 
 **Image Placeholder:**  
-*Screenshot of LimaCharlie dashboard showing installation key creation.*  
-*Screenshot of LimaCharlie agent installation in progress.*
+##### N/A:
+![N/A](N/A)
 
 ---
 
@@ -75,9 +75,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Established SSH session to Ubuntu VM via IP address.
 
 **Image Placeholder:**  
-*Screenshot of terminal showing IP retrieval.*  
-*Screenshot of netplan YAML config file.*  
-*Screenshot of ping test results.*
+##### N/A:
+![N/A](N/A)
 
 ---
 
@@ -90,8 +89,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Generated C2 payload with Ubuntu VM IP address; noted payload name.
 
 **Image Placeholder:**  
-*Screenshot of terminal commands downloading and launching Sliver.*  
-*Screenshot of Sliver shell showing payload generation.*
+##### N/A:
+![N/A](N/A)
 
 ---
 
@@ -105,9 +104,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Executed payload on Windows VM and observed new C2 session in Sliver.
 
 **Image Placeholder:**  
-*Screenshot of Python web server command.*  
-*Screenshot of payload download page in Windows VM browser.*  
-*Screenshot of Sliver shell showing active session.*
+##### N/A:
+![N/A](N/A)
 
 ---
 
@@ -117,8 +115,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Observed Sliver highlights implant process in green for easy identification.
 
 **Image Placeholder:**  
-*Screenshot of Sliver shell with command outputs.*  
-*Screenshot of Windows Task Manager or LimaCharlie process tab showing implant process `USEFUL_HELMET.exe`.*
+##### N/A:
+![N/A](N/A)
 
 ---
 
@@ -130,9 +128,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Explored timeline tab for recent event logs involving the implant.
 
 **Image Placeholder:**  
-*Screenshot of LimaCharlie process tab showing implant.*  
-*Screenshot of network connections tab filtering for C2 IP.*  
-*Screenshot of VirusTotal scan result.*
+##### N/A:
+![N/A](N/A)
 
 ---
 
@@ -146,9 +143,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Confirmed detection alert appeared in LimaCharlie under “LSASS Access”.
 
 **Image Placeholder:**  
-*Screenshot of Sliver command running procdump.*  
-*Screenshot of LimaCharlie detection rule creation.*  
-*Screenshot of detection alert in LimaCharlie UI.*
+##### N/A:
+![N/A](N/A)
 
 ---
 
@@ -163,12 +159,3 @@ This lab provided hands-on experience in setting up a virtual SOC environment, p
 - BishopFox Sliver Framework: https://github.com/BishopFox/sliver  
 - LimaCharlie: https://limacharlie.io/
 - *TBA*
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
