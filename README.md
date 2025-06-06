@@ -44,7 +44,7 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 ### 2. Installing Sysmon on Windows VM:
 
 - Used PowerShell with administrative privileges to install, unzip, and verify Sysmon.
-- [Brief explanation on why Sysmon is used: for advanced system monitoring and logging of suspicious activities.]
+- [NOTE: Brief explanation on why Sysmon is used: for advanced system monitoring and logging of suspicious activities.]
 
 ##### PowerShell command executing Sysmon:
 ![PowerShell command executing Sysmon](https://i.imgur.com/OBqo3OZ.png)
@@ -75,9 +75,14 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Tested connectivity by pinging Google DNS.
 - Established SSH session to Ubuntu VM via IP address.
 
-**Image Placeholder:**  
-##### N/A:
-![N/A](N/A)
+##### Terminal showing IP retrieval (NOTE: CLARIFY):
+![Terminal showing IP retrieval](https://i.imgur.com/TDWdCXd.png)
+
+##### GNU netplan .yaml config file:
+![GNU netplan yaml config file](https://i.imgur.com/XJEFZHI.png)
+
+##### Ping test for Google DNS results:
+![Ping test for Google DNS results](https://i.imgur.com/U0bJGLg.png)
 
 ---
 
