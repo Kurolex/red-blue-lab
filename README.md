@@ -46,9 +46,8 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Used PowerShell with administrative privileges to install, unzip, and verify Sysmon.
 - [Brief explanation on why Sysmon is used: for advanced system monitoring and logging of suspicious activities.]
 
-**Image Placeholder:**  
-##### N/A:
-![N/A](N/A)
+##### PowerShell command executing Sysmon:
+![PowerShell command executing Sysmon](https://i.imgur.com/OBqo3OZ.png)
 
 ---
 
@@ -59,9 +58,11 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Downloaded and installed LimaCharlie sensor on Windows VM using the provided executable.
 - Created Artifact Collection Rules in LimaCharlie to capture relevant data.
 
-**Image Placeholder:**  
-##### N/A:
-![N/A](N/A)
+##### Configuring Sysmon with the Artifact Collection Rule:
+![Configuring Sysmon with the Artifact Collection Rule](https://i.imgur.com/r6M2a2t.png)
+
+##### LimaCharlie agent installation confirmation in Command Prompt (cmd):
+![LimaCharlie agent installation confirmation in Command Prompt](https://i.imgur.com/7TUZ3JE.png)
 
 ---
 
