@@ -94,7 +94,9 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Launched Sliver server.
 - Generated C2 payload with Ubuntu VM IP address; noted payload name.
 
-**Image Placeholder:**  
+##### N/A:
+![N/A](N/A)
+
 ##### N/A:
 ![N/A](N/A)
 
