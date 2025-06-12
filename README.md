@@ -43,7 +43,7 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 ### 2. Installing Sysmon on Windows VM:
 
 - Used PowerShell with administrative privileges to install, unzip, and verify Sysmon.
-- [NOTE: Brief explanation on why Sysmon is used: for advanced system monitoring and logging of suspicious activities.]
+- Sysmon is a powerful Sysinternals tool used for in-depth system monitoring, helping detect advanced threats by logging key events like process activity, network connections, and file changes in one centralized location [1].
 
 ##### PowerShell command executing Sysmon:
 ![PowerShell command executing Sysmon](https://i.imgur.com/OBqo3OZ.png)
@@ -168,8 +168,12 @@ This lab provided hands-on experience in setting up a virtual SOC environment, p
 
 ## Credit & References
 
-- Microsoft Sysmon: https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon  
-- MITRE ATT&CK - Credential Dumping via LSASS: https://attack.mitre.org/techniques/T1003/001/  
-- BishopFox Sliver Framework: https://github.com/BishopFox/sliver  
-- LimaCharlie: https://limacharlie.io/
-- *TBA*
+[1] S. G., "System Monitor (Sysmon)," Medium, [Online]. Available: https://medium.com/@sh.g/system-monitor-sysmon-4f9f5ff9267b.
+
+[2] MITRE ATT&CK, "T1003.001: OS Credential Dumping: LSASS Memory," [Online]. Available: https://attack.mitre.org/techniques/T1003/001/.
+
+[3] LimaCharlie, "LimaCharlie," [Online]. Available: https://limacharlie.io/.
+
+[4] Microsoft, "Sysmon," Microsoft Docs, [Online]. Available: https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon.
+
+[5] BishopFox, "Sliver Framework," GitHub, [Online]. Available: https://github.com/BishopFox/sliver.
