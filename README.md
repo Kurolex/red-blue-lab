@@ -38,7 +38,6 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 
 ##### Registry editor with modified key of WinDefend:
 ![Registry editor with modified key of WinDefend](https://i.imgur.com/giey59e.png)
-
 ---
 
 ### 2. Installing Sysmon on Windows VM:
@@ -48,7 +47,6 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 
 ##### PowerShell command executing Sysmon:
 ![PowerShell command executing Sysmon](https://i.imgur.com/OBqo3OZ.png)
-
 ---
 
 ### 3. Installing LimaCharlie Agent on Windows VM:
@@ -63,7 +61,6 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 
 ##### Configuring Sysmon with the Artifact Collection Rule:
 ![Configuring Sysmon with the Artifact Collection Rule](https://i.imgur.com/r6M2a2t.png)
-
 ---
 
 ### 4. Configuring Network on Ubuntu VM:
@@ -83,7 +80,6 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 
 ##### Ping test for Google DNS results:
 ![Ping test for Google DNS results](https://i.imgur.com/U0bJGLg.png)
-
 ---
 
 ### 5. Installing and Launching Sliver C2 on Ubuntu VM:
@@ -94,12 +90,11 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Launched Sliver server.
 - Generated C2 payload with Ubuntu VM IP address; noted payload name.
 
-##### N/A:
-![N/A](N/A)
+##### Terminal commands launching Sliver:
+![Terminal commands launching Sliver](https://i.imgur.com/82JIK3t.png)
 
-##### N/A:
-![N/A](N/A)
-
+##### Sliver shell showing payload generation ("USEFUL_HELMET"):
+![Sliver shell showing payload generation](https://i.imgur.com/vPeVzEY.png)
 ---
 
 ### 6. Delivering and Executing Payload on Windows VM:
@@ -111,10 +106,14 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Relaunched Sliver server on Ubuntu VM.
 - Executed payload on Windows VM and observed new C2 session in Sliver.
 
-**Image Placeholder:**  
-##### N/A:
-![N/A](N/A)
+##### Python web server command used to create a temporary web server within the Ubuntu VM:
+![Python web server command used to create a temporary web server within the Ubuntu VM](https://i.imgur.com/e43R0ST.jpeg)
 
+##### Payload download page in Windows VM browser:
+![Payload download page in Windows VM browser](https://i.imgur.com/T4QtGQ7.jpeg)
+
+##### Sliver shell showing active session:
+![Sliver shell showing active session](https://i.imgur.com/gRbxToP.jpeg)
 ---
 
 ### 7. Interaction with C2 Session in Sliver:
@@ -122,10 +121,9 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Used Sliver shell commands (`info`, `whoami`, `getprivs`, `pwd`, `netstat`) to gather information about the compromised session.
 - Observed Sliver highlights implant process in green for easy identification.
 
-**Image Placeholder:**  
-##### N/A:
-![N/A](N/A)
-
+##### LimaCharlie process tab showing implant process (USEFUL_HELMET.exe):
+![LimaCharlie process tab showing implant process USEFUL_HELMET.exe 1](https://i.imgur.com/OmIBPPi.jpeg)
+![LimaCharlie process tab showing implant process USEFUL_HELMET.exe 2](https://i.imgur.com/MNMDXif.jpeg)
 ---
 
 ### 8. Monitoring Activity in LimaCharlie:
@@ -135,10 +133,14 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Used VirusTotal scan on the implant executable hash; no matches found (expected for freshly generated payload).
 - Explored timeline tab for recent event logs involving the implant.
 
-**Image Placeholder:**  
-##### N/A:
-![N/A](N/A)
+##### Network connections tab filtering for C2 IP in LimaCharlie:
+![Network connections tab filtering for C2 IP](https://i.imgur.com/KY14UOH.jpeg)
 
+##### Directory to VirusTotal (LimaCharlie) to scan the Hash:
+![Directory to VirusTotal LimaCharlie to scan the Hash](https://i.imgur.com/GpNArax.jpeg)
+
+##### VirusTotal scan result; shows nothing due to being a new file:
+![VirusTotal scan result shows nothing due to being a new file](https://i.imgur.com/flsjRuN.jpeg)
 ---
 
 ### 9. Red Team Exercise: Credential Dumping and Detection:
@@ -150,10 +152,14 @@ This lab demonstrates a hands-on adversary simulation and security operations ce
 - Executed procdump command in Sliver to validate detection success.
 - Confirmed detection alert appeared in LimaCharlie under “LSASS Access”.
 
-**Image Placeholder:**  
-##### N/A:
-![N/A](N/A)
+##### LimaCharlie detection rule creation:
+![LimaCharlie detection rule creation](https://i.imgur.com/wE8Snb9.jpeg)
 
+##### LimaCharlie response creation:
+![LimaCharlie response creation](https://i.imgur.com/2MypaBT.jpeg)
+
+##### Detection alert in LimaCharlie UI:
+![Detection alert in LimaCharlie UI](https://i.imgur.com/wH2GXuD.jpeg)
 ---
 
 ## Summary
