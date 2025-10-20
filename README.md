@@ -1,7 +1,7 @@
 <h1>Adversary Simulation & SOC Detection Lab </h1>
 
 <h2>Description </h2>
-This lab demonstrates a hands-on adversary simulation and security operations center (SOC) detection workflow using VMware virtual machines, Windows 10, Ubuntu Linux, Sysmon, LimaCharlie, and Sliver C2 framework. It covers setting up attacker and victim VMs, disabling Windows Defender protections, deploying monitoring tools, executing a Command & Control (C2) payload, and crafting detection & response rules in LimaCharlie.
+This lab demonstrates a hands-on adversary simulation and security operations center (SOC) detection workflow using VMware, Windows 10, Ubuntu Linux, Sysmon, LimaCharlie, and Sliver C2 framework. It covers setting up attacker and victim VMs, disabling Windows Defender protections, deploying monitoring tools, executing a Command & Control (C2) payload, and crafting detection & response rules in LimaCharlie.
 <br />
 
 
